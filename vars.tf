@@ -1,7 +1,7 @@
 variable "aws_account_id" {
   description = "The ID of the AWS account to create the integration for"
   type        = string
-  default     = "126552587903" # only needed if enable_datadog_aws_integration is set to true
+  default     = "12xxxxxxxxx00" # only needed if enable_datadog_aws_integration is set to true
 }
 variable "aws_region" {
   description = "AWS Region"
