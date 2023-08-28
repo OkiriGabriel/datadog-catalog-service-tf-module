@@ -21,7 +21,7 @@ variable "cloudtrail_bucket_arn" {
 variable "datadog_api_key" {
   description = "The API key for the datadog integration."
   type        = string
-  default     = "2c292455cfcb4d35a9c0402975cbade6"
+  default     = "xxxx"
 }
 variable "namespace" {
   description = "The namespace tag to apply to all data sent to datadog"
